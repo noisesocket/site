@@ -1,0 +1,59 @@
+baseurl = "https://noisesocket.github.io/"
+languageCode = "en-us"
+Title = "NoiseSocket"
+# Copyright notice. This is displayer in the footer.
+copyright = "&copy; Virgil Security"
+theme = "beautifulhugo"
+canonifyurls  = true
+
+[params]
+  paginate = 10
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  twitter = "noisesocket"
+  facebook = "VirgilSec"
+  #instagram = "Your Instagram username"
+  #googleplus = "Your Google+ user id"
+  github = "noisesocket"
+  #npm = "Your npm username"
+  #codepen = "Your CodePen username"
+  #dribbble = "Your Dribbble username"
+  #fivehundredpx = "Your 500px username" # 500px
+  #flickr = "Your Flickr username"
+  #pinterest = "Your Pinterest username"
+  #tumblr = "Your Tumblr username"
+  #vimeo = "Your Vimeo username"
+  #youtube = "Your YouTube username"
+  #linkedin = "Your LinkedIn username"
+  # Disqus shortname
+  #disqus = ""
+  # Google Analytics API key.
+  #ga_api_key = "Your Google Analytics tracking id"
+  #author = "Alexey Ermishkin & Trevor Perrin"
+  authorwebsite = "noiseprotocol.org"
+  #avatar = "/path/to/avatar"
+  contact = "mailto:scratch@virgilsecurity.com"
+  #bio = "Your short bio"
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = "The future of transport layer security"
+  # Logo image. This is displayed ogp image.
+  #logo = "/path/to/logo"
+  #favicon = "/path/to/favicon"
+
+[Author]
+  name = "Alexey Ermishkin"
+  email = "scratch@virgilsecurity.com"
+  facebook = "VirgilSec"
+  github = "noisesocket"
+  twitter = "noisesocket"
+  
+
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+
+[[menu.main]]
+    name = "Spec"
+    url = "spec/noisesocket/"
+    weight = 2
