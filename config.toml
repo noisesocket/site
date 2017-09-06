@@ -41,11 +41,12 @@ canonifyurls  = true
   #favicon = "/path/to/favicon"
 
 [Author]
-  name = "Alexey Ermishkin"
+  name = "Virgil Security"
   email = "scratch@virgilsecurity.com"
   facebook = "VirgilSec"
   github = "noisesocket"
   twitter = "noisesocket"
+  website = "https://virgilsecurity.com"
   
 
 
