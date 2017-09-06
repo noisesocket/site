@@ -8,7 +8,7 @@ Create new .md file in content/post
 If you need to add images, put them in static/post/<postname> dir and reffer to them as
 
 ```
-	[image](myimage.jpg)
+	![image](myimage.jpg)
 ```
 
 ## Publishing
