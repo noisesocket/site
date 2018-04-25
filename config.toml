@@ -5,6 +5,7 @@ Title = "NoiseSocket"
 copyright = "&copy; Virgil Security"
 theme = "beautifulhugo"
 canonifyurls  = true
+googleAnalytics = "UA-113727296-1"
 
 [params]
   paginate = 10
@@ -27,8 +28,6 @@ canonifyurls  = true
   #linkedin = "Your LinkedIn username"
   # Disqus shortname
   #disqus = ""
-  # Google Analytics API key.
-  #ga_api_key = "Your Google Analytics tracking id"
   #author = "Alexey Ermishkin & Trevor Perrin"
   authorwebsite = "noiseprotocol.org"
   #avatar = "/path/to/avatar"
@@ -58,3 +57,8 @@ canonifyurls  = true
     name = "Spec"
     url = "spec/noisesocket/"
     weight = 2
+
+[[menu.main]]
+    name = "NLS"
+    url = "spec/nls/"
+    weight = 3    
